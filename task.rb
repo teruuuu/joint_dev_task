@@ -32,7 +32,7 @@ def q4
   sports = ["サッカー", "フットサル", nil, "野球", "バスケ", nil, "バレー"]
 
   # 以下に回答を記載
-  newsports = sports.compact
+  newsports = sports.compact!
   puts sports
   # 以下は変更しないで下さい
   p sports
